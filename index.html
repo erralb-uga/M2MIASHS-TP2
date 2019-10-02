@@ -15,10 +15,18 @@
 
   <h2>Exercice 1: Opération sur des nombres</h2>
   <section>
-    Calculez le résultat de l'opération dès qu'un des opérandes ou l'opérateur est modifié.
+    Calculez le résultat de l'opération dès qu'un des opérandes ou l'opérateur est modifié.<br/>
+    Étapes à programmer: 
+    <ul>
+      <li>Récupérer les éléments du DOM et les typer</li>
+      <li>Coder la fonction de calcul</li>
+      <li>Lancer de calcul lorsque l'utilisateur modifie les éléments</li>
+    </ul>
+    Pour le calcul, il y a plusieurs façons de faire. Il est préféreable d'utiliser une <i>Map&lsaquo;string, UneFonction&rsaquo;</i> pour la gestion des opérateurs + - * /<br/>
+    On utilisera alors les fonction de Map <i>set</i> pour assigner l'opération arithmétique aux différents opérateur, et <i>get</i> pour récupérer l'opération voulue et l'appliquer à nos deux valeurs.
   </section>
   <section id="Q1">
-    Votre code HTML de réponse ici...<br/><br/>
+    <br/>
     <input type="number" class="operande1" value="2" />
     <select>
       <option value="+">+</option>
@@ -27,7 +35,7 @@
       <option value="*">*</option>
     </select>
     <input type="number" class="operande2" value="3" />
-    <output></output>
+    = <output>?</output>
   </section>
 
   <br>
@@ -38,8 +46,16 @@
     <li>Afficher des boutons pour ajouter des dimensions aux tableaux ou en retirer.</li>
     <li>Recaclulez le produit scalaire dès qu'un des vecteurs est modifié.</li>
   </ul>
+  Étapes à programmer:
+  <ul>
+      <li>Récupérer les éléments du DOM et les typer</li>
+      <li>Fonctions permettant d'ajouter et de retirer des lignes aux tableaux</li>
+      <li>Fonctiones déclanchant l'ajout et le retrait des lignes lors d'un click sur les boutons</li>
+      <li>Fonctions créant des tableaux JS en fonction des tableaux HTML</li>
+      <li>Fonction de calcul</li>
+  </ul>
   <section id="Q2">
-    Votre code HTML de réponse ici...<br/><br/>
+    <br/><br/>
     <button class="increase">Ajouter une dimension</button>
     <button class="decrease">Retirer une dimension</button>
     <br/><br/>
@@ -62,11 +78,14 @@
   <h2>Exercice 3: Reprendre l'exercice 1 et ajouter un mode édition</h2>
   <ul>
     <li>Par défaut, on ne veut pas afficher les balises input, mais plutot des balise label contenant la valeur de
-      l'opérande</li>
-    <li>Si on double click sur un de ces labels, un champs input apparait, permettant de modifier l'opérande.</li>
-    <li>On sort du mode édition de l'opérande si on perds le focus</li>
+      l'opérande (on pourra masquer les input)</li>
+    <li>Si on double click sur un de ces labels, un champ input apparait (et le label disparait), permettant de modifier l'opérande.</li>
+    <li>On sort du mode édition de l'opérande si on perd le focus</li>
     <li>Même chose pour le select</li>
+    <li>Attention, vous devez ajouter du code html ci-dessous pour cette question</li>
   </ul>
+
+  <!-- Code HTML Q3 supplémentaire - Reprenez le code de Q1 -->
 
   <br>
   <hr />
@@ -74,7 +93,13 @@
   <h2>Exercice 4: Reprendre l'exercice 2 et ajouter un mode édition</h2>
   <ul>
     <li>Idem...</li>
+    <li>Attention, vous devez ajouter du code html ci-dessous pour cette question</li>
   </ul>
+
+  <!-- Code HTML Q4 supplémentaire - Reprenez le code de Q2 -->
+
+  <br>
+  <br>
 
 </body>
 

@@ -1,4 +1,7 @@
-/sources/mainCorrection.ts
+/sources/main-corrige.ts
+index-corrige.html
+/js/*.map
+/js/*corrige.js
 /.idea
 /node_modules
 .cache
